@@ -1,3 +1,6 @@
+# What this is
+A proof of concept to show its possible to add new items to Vampire The Masqurade - Bloodlines.
+
 # How to use this
 1) Have VS build vampire.dll. You may need to adjust the project settings in visual studio because currently its going to try to build it to where my VTMB install is.
 2) Go to your "VtMB\Vampire\dlls" folder, and rename the "vampire.dll" there to "vampire2.dll".
