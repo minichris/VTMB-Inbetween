@@ -24,10 +24,10 @@ It seems like most keys in bloodlines are children of a base key class, which ma
 Just add a new block like this 
 
 
-extern "C" void* __cdecl item_k_example_new_key3(void) {
-	static const char kClassname[] = "item_k_example_new_key3";  // must match export / maps
+`extern "C" void* __cdecl item_k_example_new_key3(void) {
+	static const char kClassname[] = "item_k_example_new_key3";
 	return CreateExampleKeyEntity(kClassname);
-}
+}`
 
 and a new entry to the .def file like 
 
